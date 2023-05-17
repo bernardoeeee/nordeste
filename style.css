@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo1{
+    height: 15vh;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title img{
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    height: 100;
+    width: 100;
+}
+
+#imagem{
+    height: 10vh;
+    width: auto;
+}
+
+
+.cartografia{
+    margin-top: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: flex-start;
+}
+#cartografia:link{
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.bandeira{
+    margin-top: 85vh;
+    display: flex;
+    gap: 5vw;
+}
+.bandeira2{
+    display: flex;
+    align-items: center;
+    font-size:x-large;
+}
+#bandeira:link{
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.caracteristicas{
+    margin-top: 65vh;
+    display: flex;
+    align-items: center;
+    font-size:x-large;
+}
+
+#mascote:link{
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.musicas{
+    margin-top: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+#musicas:link{
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.comidas{
+    margin-top: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    padding: 40px;
+
+}
+#comidas:link{
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.cartografia-mapa{
+    display: flex;
+    align-items: center;
+    font-size:medium;
+    margin: 40px;
+}
+.forro-m{
+    margin-bottom: 70px;
+}
+
+.texto-musicas{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    font-weight: bold;
+}
